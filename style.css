@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #D3D3D3;
+}
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+header {
+    margin: 0 auto;    
+}
+h1 {
+    margin: 3rem;
+    font-size: 3.5rem;
+}
+.form_container {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto ;
+    background-color: wheat;
+    border: .25rem solid black; 
+    text-align: center; 
+}
+.calculator {
+    padding: 1rem;    
+     
+}
+label {
+    font-size: medium;
+    margin: .25rem;
+}
+h2 {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+h3 {
+    text-align: center;
+    font-size: large;
+}
+#btn {
+    border: .5px solid white;
+    padding: .75rem;
+    background: teal;
+    color: white;
+    margin: .25rem;
+}
+.commonAmts {
+    width: 84%;
+    margin: 2rem auto;
+    padding: .5rem;
+    font-size: 2rem;
+    background: wheat;
+    border: .25rem solid black;
+    text-align: center;
+}
+.commonAmts ul {
+    list-style: none;
+    text-align: center;
+}
+h4 {
+    display: block;
+}

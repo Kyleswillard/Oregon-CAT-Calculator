@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oregon CAT Tax Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>Oregon Corporate Activity Tax Calculator</h1>
+    </header>
+    <section class="form_container">
+    <h2>Please enter your data below</h2>
+        <label for="vPrice">Vehicle Price:</label>
+        <input type="text" name="vPrice" id="vPrice">
+        <button onclick="results()" id="btn">Button</button>
+       
+    <h3 id="result">Results:</h3>
+</section>
+<section class="commonAmts">
+    <h2>Common Amounts</h2>
+    <p>**<br> Please note that all numbers are multiplied by the state specified 57%. This does not apply until you make a GROSS profit of $750,000 for the fiscal year. <br>**</p>
+    <ul>
+        <li>$1000: $5.7</li>
+        <li>$5000: $28.50</li>
+        <li>$10,000: $57</li>
+        <li>$15,000: $85.5</li>
+        <li>$20,000: $114</li>
+        <li>$50,000: $285</li>
+        <li>$100,000: $570</li>
+    </ul>    
+    <h4>Please note: Not responsible for incorrect calculations. Calculations should be accureate, but we do not gurantee them.</h4>
+</section>
+    <script src="./app.js"></script>
+</div>
+</body>
+</html>
